@@ -1,10 +1,6 @@
 <template>
   <div class="container mt-4 text-center">
-    <img
-      src="./assets/International_Pokémon_logo.svg.png"
-      alt="Pokemon Logo"
-      style="width: 500px"
-    />
+    <img src="./assets/Pokémon.png" alt="Pokemon Logo" style="width: 500px" />
     <h3>Que es ese Pokemon?</h3>
     <h4 class="mb-3">Pokemones descubiertos: ({{ discoveredCount }})</h4>
     <div class="row row-cols-1 row-cols-md-4 g-4">

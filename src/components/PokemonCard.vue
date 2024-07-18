@@ -1,7 +1,7 @@
 <!-- Rendrerizamos la tarjeta de pokemon usando estilos de Bootstrap para colocarlos en forma de grid -->
 
 <template>
-  <div class="col mb-4">
+  <div class="col mb-4 me-2">
     <div class="card">
       <!-- Agregamos los props que buscamos en el objeto llamando a la Api de Pokemon -->
       <img
@@ -17,7 +17,7 @@
           @keydown.enter="checkPokemon"
           v-if="!discovered"
           class="form-control mb-2"
-          placeholder="Ingrese el nombre del Pokémon"
+          placeholder="Qué Pokémon es?"
         />
         <!-- Agregamos boton para revisar si el nombre ingresado existe -->
         <button
