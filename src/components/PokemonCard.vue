@@ -1,7 +1,7 @@
 <!-- Rendrerizamos la tarjeta de pokemon usando estilos de Bootstrap para colocarlos en forma de grid -->
 
 <template>
-  <div class="col mb-4 me-2">
+  <div class="col mb-4">
     <div class="card">
       <!-- Agregamos los props que buscamos en el objeto llamando a la Api de Pokemon -->
       <img
